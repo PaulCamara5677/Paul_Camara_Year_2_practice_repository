@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 1rem; /* Space in-between images */
+    padding: 1rem;
+}
+
+.photo-grid img {
+    width: 100%; /* width of Responsive images */
+    height: auto; /* height given to Maintain aspect ratio */
+    border-radius: 8px; /* Optional styling */
+    transition: transform 0.3s; /* Optional hover effect */
+}
+
+.photo-grid img:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}

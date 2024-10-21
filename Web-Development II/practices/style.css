@@ -1,0 +1,14 @@
+body{
+    min-height: 1200px;
+    border:12px solid antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    height: 1200px;
+    width: 800px;
+    background-color: black;
+    font-size: 60pt;
+}
